@@ -1,0 +1,118 @@
+.deals-info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90vh;
+    grid-template: "t i";
+}
+.text-wrap{
+    margin: 20% auto;
+    width: 100%;
+    min-width: 100%;
+    grid-area: t;
+}
+.text{
+    width: 50%;
+    margin: 2% auto;
+    text-align: left;
+}
+.image,.image-yel{
+    grid-area: i;
+    margin: 2% auto;
+    width: 100%;
+    height: 90vh;
+    min-width: 100%;
+}
+h1,p,button{
+    margin-top: 6%;
+    color: #053C4D;
+}
+p{
+    font-size: 18px;
+}
+.aqua-color{
+    color: #00D586;
+}
+.button-get-started{
+    width: 50%;
+    background-color:#00D586 ;
+    color: white;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: x-large;
+    padding-bottom: 1%;
+    font-weight: 600;    
+}
+.deals-img{
+    width: 100%;
+    height: 90vh;
+}
+.bg-check{
+    background-image: url("https://leadiq.com/images/VideoImageLeft-p-800.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+}
+.work-info{
+    width: 100%;
+    height: 500px;
+}
+.center{
+    margin: 3% auto;
+    width: 70%;
+}
+.text-video{
+    width: 100%;
+    text-align: center;
+    height: 450px;
+}
+.yt-video{
+    width: 100%;
+    height: 450px;
+}
+.bg-yellow{
+    background-image: url("https://leadiq.com/images/Fact-1-Bg.svg");
+}
+.on-yello-top{
+    width: 80%;
+    margin: 10%;
+    margin-top: 30%;
+}
+.bg-triangle-yellow{
+    background-image: url("https://leadiq.com/images/Fact-2-BG.svg");
+}
+.transparency{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90vh;
+    grid-template: "i t";
+}
+.clear{
+    clear: both;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media(max-width: 600px) {
+    .deals-info{
+        grid-template: "t"
+        "i";
+    }
+    .text-wrap{
+        width: 90%;
+    }
+    .deals-img{
+        width: 90%;
+    }
+    .button-get-started{
+       width: 150px ;
+    }
+    .text{
+        width: 90%;
+    }
+    .transparency{
+        grid-template: "i"
+        "t";
+    }
+    
+}
+#get-button-min-width{
+    width: 150px !important;
+}
