@@ -88,6 +88,9 @@ p{
     grid-template-rows: 90vh;
     grid-template: "i t";
 }
+.clear{
+    clear: both;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -107,3 +110,4 @@ grid-template: "i"
 }
 
 } 
+
