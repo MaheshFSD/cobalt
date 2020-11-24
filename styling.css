@@ -1,0 +1,42 @@
+.header{
+    width:100%;
+    margin-top: 10%;
+    position: sticky;
+}
+
+.button-get-started{
+    width:15%;
+    background-color:#00D586 ;
+    color: white;
+    height: 60px;
+    border-radius: 35px;
+    border: none;
+    font-size: x-large;
+    padding-bottom: 1%;
+    font-weight: 600;
+}
+.line{
+    margin: 2%;
+    color: #00D586;
+    width: 24%;
+    height:4%;
+}
+.ending{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.img1{
+    width: fit-content;
+    margin-left: 80%;
+}
+.bgn-fb{
+    background-image: url(" https://www.flaticon.com/svg/static/icons/svg/145/145802.svg");
+    height:50px;
+    border-radius:25px;
+}
+.details{
+   width: 100%;
+   
+
+}
