@@ -88,6 +88,11 @@ p{
     grid-template-rows: 90vh;
     grid-template: "i t";
 }
+<<<<<<< HEAD
+.clear{
+    clear: both;
+}
+=======
 .trusted-by{
     border: 1px solid black;
     height: 400px;
@@ -390,6 +395,7 @@ p{
 }
 
 
+>>>>>>> 5a355a64fac7f79068d2f9d3e03aa159945bc662
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -409,3 +415,4 @@ grid-template: "i"
 }
 
 } 
+
