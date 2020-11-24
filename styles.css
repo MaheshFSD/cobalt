@@ -98,6 +98,8 @@ p{
     display: grid;
     border: 1px ;
     height: 100%;
+.clear{
+    clear: both;
 }
 .trusted-by{
     border: 1px solid black;
@@ -476,6 +478,113 @@ p{
     margin-left: 40%;
 }
   
+body{
+    margin: 0;
+    padding:0;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(246, 246, 246);
+}
+header .logo{
+    float: left;
+    padding: 20px 5px;
+    width: 20%;
+    margin-left: 2%;
+}
+header nav{
+    float: right;
+    padding-top:5%;
+    width: 70%;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    width: 100px;
+    margin: 0;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(3, 10, 4);
+}
+header nav ul li a:hover{
+    color: #00D586;
+    
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    margin-right: 15%;            
+}
+button{
+    width: 140px;
+    height: 30px;
+    color: white;
+    background-color: #00D586;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    padding:5px 20px;
+    border-radius: 15px;
+}
+.menu{
+    float: right;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 24px;
+    width: 50px;
+    margin-right: 3%;
+    padding-top:3%;
+    display: none;
+    color: #00D586;
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: thistle;
+}
+@media (max-width: 700px) {
+    header{
+        padding: 0 20px;
+        text-align: center;
+    }
+    .menu{
+        color: #00D586;
+        display: block;
+    }
+    header nav {
+        /* display: none; */
+        position: absolute;
+        width: 100%;
+        top:50px;
+        height: 70vh;
+        left: 0;
+    }
+   
+    #list{
+        display: none;
+        text-align: center;
+        margin-left: 30%;
+    }
+    header nav ul li{
+        margin:40px
+    }
+}
+@media(min-width: 701px){
+    header nav {
+        display: block;
+    }
+}
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 .deals-info{
@@ -494,3 +603,4 @@ grid-template: "i"
 }
 
 } 
+
