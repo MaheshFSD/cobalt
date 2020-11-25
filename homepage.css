@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+  }
+.deals-info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90vh;
+    grid-template: "t i";
+}
+.text-wrap{
+    margin: 20% auto;
+    width: 100%;
+    min-width: 100%;
+    grid-area: t;
+}
+.text{
+    width: 50%;
+    margin: 2% auto;
+    text-align: left;
+}
+.image,.image-yel{
+    grid-area: i;
+    margin: 2% auto;
+    width: 100%;
+    height: 90vh;
+    min-width: 100%;
+}
+h1,p,button{
+    margin-top: 6%;
+    color: #053C4D;
+}
+p{
+    font-size: 18px;
+}
+.aqua-color{
+    color: #00D586;
+}
+.button-get-started{
+    width: 50%;
+    background-color:#00D586 ;
+    color: white;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: x-large;
+    padding-bottom: 1%;
+    font-weight: 600;    
+}
+.deals-img{
+    width: 100%;
+    height: 90vh;
+}
+.bg-check{
+    background-image: url("https://leadiq.com/images/VideoImageLeft-p-800.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+}
+.work-info{
+    width: 100%;
+    height: 500px;
+}
+.center{
+    margin: 3% auto;
+    width: 70%;
+}
+.text-video{
+    width: 100%;
+    text-align: center;
+    height: 450px;
+}
+.yt-video{
+    width: 100%;
+    height: 450px;
+}
+.bg-yellow{
+    background-image: url("https://leadiq.com/images/Fact-1-Bg.svg");
+}
+.on-yello-top{
+    width: 80%;
+    margin: 10%;
+    margin-top: 30%;
+}
+.bg-triangle-yellow{
+    background-image: url("https://leadiq.com/images/Fact-2-BG.svg");
+}
+.transparency{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90vh;
+    grid-template: "i t";
+}
+.clear{
+    clear: both;
+}
+
+#get-button-min-width{
+    width: 150px !important;
+}
+body{
+    margin: 0;
+    padding:0;
+    height: 2000px;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(238, 237, 237);
+}
+header .logo{
+    float: left;
+    padding: 20px 5px;
+    width: 20%;
+    margin-left: 2%;
+}
+header nav{
+    float: right;
+    padding-top:5%;
+    width: 70%;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    width: 100px;
+    margin: 0;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(3, 10, 4);
+}
+header nav ul li a:hover{
+    color: #00D586;
+    
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    margin-right: 15%;            
+}
+button{
+    width: 140px;
+    height: 30px;
+    color: white;
+    background-color: #00D586;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    padding:5px 20px;
+    border-radius: 15px;
+}
+.menu{
+    float: right;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 24px;
+    width: 50px;
+    margin-right: 3%;
+    padding-top:3%;
+    display: none;
+    color: #00D586;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: thistle;
+}
+
+@media(max-width: 700px) {
+    .deals-info{
+        grid-template: "t"
+        "i";
+    }
+    .text-wrap{
+        width: 90%;
+    }
+    .deals-img{
+        width: 90%;
+    }
+    .button-get-started{
+       width: 150px ;
+    }
+    .text{
+        width: 90%;
+    }
+    .transparency{
+        grid-template: "i"
+        "t";
+    }
+    header nav {
+        display: block;
+    }
+    
+}
+@media(min-width: 701px){
+    header nav {
+        display: block;
+    }
+}
