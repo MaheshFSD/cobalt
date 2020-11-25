@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesiq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <header>
+            <div class="logo"><img src="https://leadiq.com/images/leadIQ.svg" ></div>
+            <nav>
+                <ul id="list">
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Customers</a></li>
+                    <li><a href="">Content</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Academy</a></li>
+                    <li><a href="loginiq">Login</a></li>
+                    <a href="getstartediq.html"><div class="btn"><button>Get Started</button></div></a>
+
+                </ul>
+            </nav>
+            <div class="menu" ><i id="menuId" class="fa fa-bars" style="color:#00D586"></i></div>
+        </header>
+        
+           <div class="blue-box">
+               <h1>Get Started</h1>
+               <h3>Fill out the form below and we'll get back to you shortly.</h3>
+           </div>
+           <form id="signup">
+               <label for="fn">First name <span id="field">*</span></label><br>
+               <input type="text" id="fn" ><br>
+               <label for="ln">Second name <span id="field">*</span></label><br>
+               <input type="text" id="ln" ><br>
+               <label for="be">Business Email <span id="field">*</span></label><br>
+               <input type="text" id="be" ><br>
+               <label for="cn">Company name <span id="field">*</span></label><br>
+               <input type="text" id="cn" ><br>
+               <label for="mob">Mobile number <span id="field">*</span></label><br>
+               <input type="text" id="mob" ><br>
+               <label for="title">What best describes your title? <span id="field">*</span></label><br>
+               <select name="desc" id="title" >
+                   <option value="pls">Please Select</option>
+                   <option value="ic">Individual Contributor (IC)</option>
+                   <option value="man">Manager</option>
+                   <option value="dir">Director</option>
+                   <option value="vp">VP/President</option>
+                   <option value="clev">C-Level</option>
+               </select><br>
+               <label for="res">What is your primary responsibility? <span id="field">*</span></label><br>
+               <select name="pri" id="res" required>
+                    <option value="plse">Please Select</option>
+                    <option value="clo">Closer(AE,AM,etc.)</option>
+                    <option value="qual">Qualifier(SDR,BDR,etc)</option>
+                    <option value="sl">Sales Leadership</option>
+                    <option value="se">Sales Enablement</option>
+                    <option value="sd">Sales Development</option>
+                    <option value="so">Sales Ops</option>
+                    <option value="mo">Marketing Ops</option>
+                    <option value="mark">Marketing</option>
+                    <option value="oth">Other</option>
+               </select><br>
+               <input type="submit" id="Submit">
+           </form>
+           <div class="last-container">
+            <div class="last">
+                <div class="last1">
+                    <a href="https://leadiq.com/index"><img class="last-logo" src="https://leadiq.com/images/leadIQ.svg" alt="logo"></a>
+                    <p>1-888-6LEADIQ
+                        (1-888-653-2347)
+                        support@leadiq.com
+                    </p>
+                    <div class="icon-logo">
+                         <a href="https://leadiq.com/index"><img class="icon-sites" src="https://leadiq.com/images/001-facebook-logo.svg" alt="fb"></a>
+                         <a href="https://leadiq.com/index"><img class="icon-sites" src="https://leadiq.com/images/002-linkedin.svg" alt="lkn"></a>
+                         <a href="https://leadiq.com/index"><img class="icon-sites" src="https://leadiq.com/images/003-youtube.svg" alt="yt"></a>
+                         <a href="https://leadiq.com/index"><img class="icon-sites" src="https://leadiq.com/images/004-twitter.svg" alt="tw"></a>
+                    </div>
+                </div>
+                <div class="last2">
+                    <div><a href="https://leadiq.com/index" class="details">Pricing</a><br></div>
+                    <div><a href="https://leadiq.com/index" class="details">Blog</a></div>
+                    <div><a href="https://leadiq.com/index" class="details">Careers</a></div>
+                    <div><a href="https://leadiq.com/index" class="details">Privacy Policy</a></div>
+                    <div><a href="https://leadiq.com/index" class="details">Terms of Use</a></div>
+                    <div><a href="https://leadiq.com/index" class="details">Security</a></div>
+                    <div><a href="https://leadiq.com/index" class="details">Help</a></div>
+                </div>
+                <div class="last3">
+                    <a href="https://leadiq.com/index"><h4 id="beside-top">Recent Blogs</h4></a>
+                    <a href="https://leadiq.com/index">How to Get Prospects to Accept Your LinkedIn Connection Request</a><br>
+                    <a href="https://leadiq.com/index">Why Sales Reps Should Stop Introducing Yourself in Cold Emails</a><br>
+                    <a href="https://leadiq.com/index">An Inside Look on how LeadIQ gets their Data</a> 
+                </div>
+            </div>
+        </div>
+        <div class="copy-right"> <p>Copyright © 2020 LeadIQ. All rights reserved.</p></div>
+       </div>
+        <script>
+            var dis=document.getElementById('menuId')
+            var lis=document.getElementById('list')
+            dis.addEventListener('click',display)
+            var i=1;
+            function display(){
+                if(i==1)
+                {
+                    i=0;
+                    lis.style.display="block";
+                }
+                else
+                {
+                    i=1;
+                    lis.style.display="none";
+                }
+            }
+        </script>
+</body>
+</html>
