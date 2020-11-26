@@ -486,7 +486,7 @@ a:hover{
       transform: scale(1.5);
   }
   button.login-transform:hover{
-    transform: translate3d(1px, 0, 0);
+    transform: translate3d(0, -4px, 0);
   }
   .login-login{
     width: 80%;
@@ -577,6 +577,7 @@ a:hover{
     background-color: rgb(245, 249, 251);
     border-radius: 2px;
     border: 1px solid rgb(223, 221, 221);
+    outline: none;
 }
 #title,#res{
     height: 40px;
@@ -585,6 +586,7 @@ a:hover{
     background-color: rgb(245, 249, 251);
     border-radius: 2px;
     border: 1px solid rgb(223, 221, 221);
+    outline: none;
 }
 #Submit{
     height: 30px;

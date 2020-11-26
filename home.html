@@ -464,8 +464,8 @@
                 <li><a href="">Content</a></li>
                 <li><a href="">Privacy</a></li>
                 <li><a href="">Academy</a></li>
-                <li><a href="#login.html">Login</a></li>
-                <div class="btn"><button>Get Started</button></div>
+                <li><a href="login.html">Login</a></li>
+                <a href="getstarted.html"><div class="btn"><button>Get Started</button></div></a>
             </ul>
         </nav>
         <div class="menu" ><i id="menuId" class="fa fa-bars" style="color:#00D586"></i></div>
@@ -654,6 +654,7 @@
     <div class="copy-right"> <p>Copyright © 2020 LeadIQ. All rights reserved.</p></div>
           
     <script>
+        
         var dis=document.getElementById('menuId')
         var lis=document.getElementById('list')
         dis.addEventListener('click',display)
@@ -671,25 +672,25 @@
             }
         }
         // Slide every slideDelay seconds
-      const slideDelay = 3000;
+                const slideDelay = 3000;
 
-const dynamicSlider = document.getElementById("slider");
+            const dynamicSlider = document.getElementById("slider");
 
-var curSlide = 0;
-window.setInterval(()=>{
-  curSlide++;
-  if (curSlide === dynamicSlider.childElementCount) {
-    curSlide = 0;
-  }
+            var curSlide = 0;
+            window.setInterval(()=>{
+            curSlide++;
+            if (curSlide === dynamicSlider.childElementCount) {
+                curSlide = 0;
+            }
 
-  // Actual slide
-  dynamicSlider.firstElementChild.style.setProperty("margin-left", "-" + curSlide + "00%");
-}, slideDelay);
+            // Actual slide
+            dynamicSlider.firstElementChild.style.setProperty("margin-left", "-" + curSlide + "00%");
+            }, slideDelay);
 
-var button =document.getElementsByClassName("btn");
-button.addEventListener("click",openGetStarted);
-function openGetStarted(){
-    
+            var button =document.getElementsByClassName("btn");
+            button.addEventListener("click",openGetStarted);
+            function openGetStarted(){
+                
 }
     </script>
 </body>
