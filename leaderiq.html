@@ -12,12 +12,12 @@
         <div class="logo"><img src="https://leadiq.com/images/leadIQ.svg" ></div>
         <nav>
             <ul id="list">
-                <li><a href="">Products</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Customers</a></li>
-                <li><a href="">Content</a></li>
-                <li><a href="">Privacy</a></li>
-                <li><a href="">Academy</a></li>
+                <li><a href="leaderiq.html">Products</a></li>
+                <li><a href="leaderiq.html">Pricing</a></li>
+                <li><a href="leaderiq.html">Customers</a></li>
+                <li><a href="leaderiq.html">Content</a></li>
+                <li><a href="leaderiq.html">Privacy</a></li>
+                <li><a href="leaderiq.html">Academy</a></li>
                 <li><a href="loginiq.html">Login</a></li>
                 <a href="getstartediq.html"><div class="btn"><button>Get Started</button></div></a>
             </ul>
@@ -33,7 +33,7 @@
                 <p>Your sales reps will reach the right prospects
                 faster with LeadIQ. Management loves the transparency
                 of our dashboard.</p>
-            <button class="button-get-started">Get Started</button>
+            <button class="button-get-started transform">Get Started</button>
             </div>
         </div>
         <div class="image">
@@ -116,7 +116,7 @@
                 <p>Your sales reps will reach the right prospects
                 faster with LeadIQ. Management loves the transparency
                 of our dashboard.</p>
-            <button class="button-get-started">Get Started</button>
+            <button class="button-get-started transform">Get Started</button>
             </div>
         </div>
         <div class="image bg-yellow">
@@ -158,7 +158,7 @@
                 <p>Your sales reps will reach the right prospects
                 faster with LeadIQ. Management loves the transparency
                 of our dashboard.</p>
-            <button class="button-get-started">Get Started</button>
+            <button class="button-get-started transform">Get Started</button>
             </div>
         </div>
     </div>
@@ -169,7 +169,7 @@
             <p>No matter what sales software you use, we believe your leads should get there in one click. That's why 
                 we're constantly working to integrate with other sales softwares. We don't believe you should copy data 
                 from one system to another - ever.</p>
-            <button class="bottom-get-started ">Get Started</button>    
+            <button class="bottom-get-started transform">Get Started</button>    
         </div>
     </div>
     <!-- second last div ends -->
@@ -207,44 +207,7 @@
     </div>
     <div class="copy-right"> <p>Copyright © 2020 LeadIQ. All rights reserved.</p></div>
           
-    <script>
-        
-        var dis=document.getElementById('menuId')
-        var lis=document.getElementById('list')
-        dis.addEventListener('click',display)
-        var i=1;
-        function display(){
-            if(i==1)
-            {
-                i=0;
-                lis.style.display="block";
-            }
-            else
-            {
-                i=1;
-                lis.style.display="none";
-            }
-        }
-        // Slide every slideDelay seconds
-        const slideDelay = 3000;
-
-        const dynamicSlider = document.getElementById("slider");
-
-        var curSlide = 0;
-        window.setInterval(()=>{
-        curSlide++;
-        if (curSlide === dynamicSlider.childElementCount) {
-            curSlide = 0;
-        }
-
-        // Actual slide
-        dynamicSlider.firstElementChild.style.setProperty("margin-left", "-" + curSlide + "00%");
-        }, slideDelay);
-
-        var button =document.getElementsByClassName("btn");
-        button.addEventListener("click",openGetStarted);
-        function openGetStarted(){}
-
+    <script src="javascriptiq.js">       
     </script>
 </body>
 </html>
