@@ -1,4 +1,18 @@
 # cobalt
+
+# leadiQ.com
+Which is a leads generation website for sales departments.
+
+## Tech stacks used :
+- HTML
+- CSS
+- JAVA SCRICPT
+
+## Home Page :
+
+![ppic](https://user-images.githubusercontent.com/73214362/115740558-90902400-a3ac-11eb-86a5-8cbf224a8243.jpg)
+
+
 #Team
 1. S Mahesh G
 2. Rajat Sahu
